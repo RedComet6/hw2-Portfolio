@@ -63,6 +63,10 @@ a {
   color: white;
 }
 
+.d-b {
+  display: block;
+}
+
 .d-f {
   display: flex;
 }
@@ -123,6 +127,10 @@ a {
   justify-content: space-evenly;
 }
 
+.lis-bull-circ {
+  list-style-type: circle;
+}
+
 .lis-n {
   list-style: none;
 }
@@ -137,6 +145,10 @@ a {
 
 .ml {
   margin-left: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 4rem;
 }
 
 .mt {
@@ -163,10 +175,28 @@ a {
   padding-left: 1.5rem;
 }
 
-.pos-bot {
+.pos-a-bot {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.pos-f-t {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.pt-8 {
+  padding-top: 8rem;
+}
+
+.t-i {
+  text-indent: 1rem;
 }
 
 .w-100 {
@@ -197,6 +227,10 @@ a {
 
   .ml\@lrg {
     margin-left: 1.5rem;
+  }
+
+  .pt-3\@lrg {
+    padding-top: 3rem;
   }
 }
 
