@@ -1,4 +1,4 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
+/* apply natural box layout model to all elements, but also let components change */
 html {
   box-sizing: border-box;
 }
@@ -23,12 +23,28 @@ a {
   align-items: center;
 }
 
+.bgc-amber-100 {
+  background-color: #ffe0b2;
+}
+
+.bgc-amber-400 {
+  background-color: #ffca28;
+}
+
+.bgc-blue-400 {
+  background-color: #42a5f5;
+}
+
 .bgc-boringblue {
   background-color: rgb(37, 137, 189);
 }
 
 .bgc-lightgray {
   background-color: lightgray;
+}
+
+.bgc-orange-50 {
+  background-color: #fff3e0;
 }
 
 .bgc-royalblue {
