@@ -23,6 +23,22 @@ a {
   align-items: center;
 }
 
+.b-r-circ {
+  border-radius: 100%;
+}
+
+.b-r-12 {
+  border-radius: 12%;
+}
+
+.b-r-25 {
+  border-radius: 25%;
+}
+
+.b-r-50 {
+  border-radius: 50%;
+}
+
 .bgc-amber-100 {
   background-color: #ffe0b2;
 }
@@ -139,6 +155,10 @@ a {
   margin: 0;
 }
 
+.max-w-22 {
+  max-width: 22rem;
+}
+
 .min-w-50 {
   min-width: 50%;
 }
@@ -173,12 +193,6 @@ a {
 
 .pl {
   padding-left: 1.5rem;
-}
-
-.pos-a-bot {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .pos-f-t {
