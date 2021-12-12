@@ -159,6 +159,10 @@ a {
   max-width: 22rem;
 }
 
+.max-w-60 {
+  max-width: 60rem;
+}
+
 .min-w-50 {
   min-width: 50%;
 }
@@ -173,10 +177,6 @@ a {
 
 .mt {
   margin-top: 1.5rem;
-}
-
-.mw-60 {
-  max-width: 60rem;
 }
 
 .p0 {
