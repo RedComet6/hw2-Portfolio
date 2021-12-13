@@ -155,6 +155,18 @@ a {
   margin: 0;
 }
 
+.max-w-2 {
+  max-width: 2rem;
+}
+
+.max-w-3 {
+  max-width: 3rem;
+}
+
+.max-w-4 {
+  max-width: 4rem;
+}
+
 .max-w-22 {
   max-width: 22rem;
 }
@@ -177,6 +189,10 @@ a {
 
 .mt {
   margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
 }
 
 .p0 {
@@ -209,8 +225,24 @@ a {
   padding-top: 8rem;
 }
 
+.pt-9 {
+  padding-top: 9rem;
+}
+
+.pt-12 {
+  padding-top: 12rem;
+}
+
+.pt-24 {
+  padding-top: 24rem;
+}
+
 .t-i {
   text-indent: 1rem;
+}
+
+.va-m {
+  vertical-align: middle;
 }
 
 .w-100 {
@@ -246,9 +278,33 @@ a {
   .pt-3\@lrg {
     padding-top: 3rem;
   }
+
+  .pt-5\@lrg {
+    padding-top: 5rem;
+  }
+
+  pt-12\@lrg {
+    padding-top: 12rem;
+  }
+
+  .pt-18\@lrg {
+    padding-top: 18rem;
+  }
+
+  .pt-20\@lrg {
+    padding-top: 20rem;
+  }
+
+  .pt-24\@lrg {
+    padding-top: 24rem;
+  }
 }
 
 @media (max-width: 767px) {
+  .pt-8\@sm {
+    padding-top: 8rem;
+  }
+
   .mt\@sm {
     margin-top: 1rem;
   }
