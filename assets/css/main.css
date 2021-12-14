@@ -75,6 +75,14 @@ a {
   background-color: steelblue;
 }
 
+.bs-bb {
+  box-sizing: border-box;
+}
+
+.bs-cb {
+  box-sizing: content-box;
+}
+
 .c-white {
   color: white;
 }
@@ -123,6 +131,10 @@ a {
   flex-direction: column;
 }
 
+.fx-w {
+  flex-wrap: wrap;
+}
+
 .fz-1p5 {
   font-size: 1.5rem;
 }
@@ -161,6 +173,18 @@ a {
 
 .m1 {
   margin: 1rem;
+}
+
+.ma {
+  margin: auto;
+}
+
+.mal {
+  margin-left: auto;
+}
+
+.mar {
+  margin-right: auto;
 }
 
 .max-w-2 {
@@ -247,6 +271,10 @@ a {
 
 .t-i {
   text-indent: 1rem;
+}
+
+.ta-c {
+  text-align: center;
 }
 
 .va-m {
