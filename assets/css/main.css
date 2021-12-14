@@ -18,6 +18,14 @@ a {
   text-decoration: none;
 }
 
+/* selectors */
+:target {
+  display: block;
+  position: relative;
+  top: -8rem;
+  visibility: hidden;
+}
+
 /* class in alpha order */
 .ai-c {
   align-items: center;
@@ -247,6 +255,10 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.pt-1 {
+  padding-top: 1rem;
 }
 
 .pt-6 {
