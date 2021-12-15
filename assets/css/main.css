@@ -27,6 +27,13 @@ a {
   visibility: hidden;
 }
 
+#about-me:target {
+  display: block;
+  position: relative;
+  top: -24rem;
+  visibility: hidden;
+}
+
 /* class in alpha order */
 .ai-c {
   align-items: center;
