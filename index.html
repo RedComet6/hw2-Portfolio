@@ -11,23 +11,32 @@
 </head>
 
 <body class="bgc-orange-50 h-100vh pt-8">
-    <!-- NAV -->
+    <!-- Nav bar - fixed to top of browser -->
     <nav class="ai-c bgc-blue-900 jc-sb p pos-f-t d-f@lrg">
+        <!-- division to group name with avatar photo -->
         <div class="c-white ff-verdana fz-2">AIDAN CHAMBERLAIN
             <img class="b-r-50 max-w-3 va-m" src="./assets/images/aidan-chamberlain.jpg" alt="Aidan's avatar">
         </div>
+        <!-- unordered list separate from division to allow flex -->
+        <!-- unordered list to group navigation anchors -->
         <ul class="lis-n m0 p0 d-f@lrg">
+            <!-- jumps to About Me section -->
             <li class="ml@lrg"><a class="c-white" href="#about-me">About Me</a></li>
+            <!-- jumps to My Works section -->
             <li class="ml@lrg"><a class="c-white" href="#my-works">My Works</a></li>
+            <!-- jumps to My Links section -->
             <li class="ml@lrg"><a class="c-white" href="#my-links">My Links</a></li>
         </ul>
     </nav>
 
-    <!-- Bio with Pic -->
+    <!-- short bio with Pic -->
     <section class="ai-c d-b mt p d-f@lrg">
+        <!-- anchor for navigation put at top of section to assist in aligning when jumping-->
         <a id="about-me"></a>
+        <!-- division to group all text separate from personal photo to allow flex -->
         <div>
             <h2 class="fz-2">About Me:</h2>
+            <!-- previous employment and education info -->
             <p class="p t-i"> I graduated from Purdue University in May 2016 with a Bachelor of Technology in Computer
                 Graphics. I
                 began my career working in the internal design department of Archer Daniels Midland Company; a company
@@ -42,6 +51,7 @@
                 <li>Brazil</li>
             </ul>
 
+            <!-- my current employment info -->
             <p class="p t-i">In 2018 I moved to the Chicago area and accepted a job in the Aviation and Federal
                 Department of Burns & McDonnell Company, where I am currently employed. My department's primary clients
                 are airports and the federal government, but we are not limited to the Chicago area. I have assisted in
@@ -55,26 +65,29 @@
                 <li>Fermi National Accelerator Laboratory (FNAL)</li>
             </ul>
 
+            <!-- disclaimer -->
             <p class="p t-i">In addition to my day job, I am currently taking a coding bootcamp in pursuit of finding a
                 job as a developer. I currently only have one deployed application to show off, but I will
                 be updating my works below regularly with my most recent deployments.</p>
         </div>
-
+        <!-- image placed in division to facilitate styling, flex -->
         <div class="ta-c">
             <img class="b-r-12 max-w-22 mt" src="./assets/images/aidan-chamberlain.jpg"
                 alt="a portrait of Aidan Chamberlain">
         </div>
     </section>
 
-
-    <!-- WORKS -->
+    <!-- my collection of works to show off, images are links to deployed works -->
+    <!-- most important content, so i chose the "main" tag -->
     <main class="p">
+        <!-- anchor for navigation put at top of main to assist in aligning when jumping-->
         <a id="my-works"></a>
         <h2 class="fz-2">My Works:</h2>
 
-        <!-- First, larger content -->
+        <!-- First, most important content to be shown larger than below content and remain centered above other images as browser size changes -->
         <section class="ta-c">
             <h3>Mock-Up Horiseon Website</h3>
+            <!-- image used as an anchor -->
             <a href="https://redcomet6.github.io/hw1-b/" target="_blank">
                 <div>
                     <img src="./assets/images/horiseon-card.png" alt="screenshot of mock-up website">
@@ -82,32 +95,40 @@
             </a>
         </section>
 
-        <!-- section holding remaining content to flex around under main content when browser is large-->
+        <!-- section holding remaining less important content to flex around under important content as browser size changes-->
         <section class="d-f fx-w">
             <!-- content 1 -->
+            <!-- anchor placed in division to assist in styling -->
             <div class="fx-1 m1 ta-c">
                 <p>Placeholder 1</p>
+                <!-- image used as an anchor -->
                 <a>
                     <img class="h-13" src="./assets/images/placeholder.png" alt="placholder">
                 </a>
             </div>
             <!-- content 2 -->
+            <!-- anchor placed in division to assist in styling -->
             <div class="fx-1 m1 ta-c">
                 <p>Placeholder 2</p>
+                <!-- image used as an anchor -->
                 <a>
                     <img class="h-13" src="./assets/images/placeholder.png" alt="placholder">
                 </a>
             </div>
             <!-- content 3 -->
+            <!-- anchor placed in division to assist in styling -->
             <div class="fx-1 m1 ta-c">
                 <p>Placeholder 3</p>
+                <!-- image used as an anchor -->
                 <a>
                     <img class="h-13" src="./assets/images/placeholder.png" alt="placholder">
                 </a>
             </div>
             <!-- content 4 -->
+            <!-- anchor placed in division to assist in styling -->
             <div class="fx-1 m1 ta-c">
                 <p>Placeholder 4</p>
+                <!-- image used as an anchor -->
                 <a>
                     <img class="h-13" src="./assets/images/placeholder.png" alt="placholder">
                 </a>
@@ -115,13 +136,21 @@
         </section>
     </main>
 
-    <!-- contact -->
+    <!-- contact info-->
+    <!-- "footer" used as this is page closing content -->
+    <!-- footer displays flex at large browser size -->
     <footer class="ai-c bgc-blue-900 p w-100 d-f@lrg">
+        <!-- anchor for navigation put at top of footer to assist in aligning when jumping-->
         <a id="my-links"></a>
         <div class="c-white fz-2">My Links:</div>
+        <!-- unordered list with my links, flexes at large browser size -->
         <ul class="lis-n jc-se m0 p0 d-f@lrg mt@sm">
-            <li><a class="c-white fz-1p5 ml@lrg" target="_blank">My Resume</a></li>
+            <!-- link to pdf in assets folder -->
+            <li><a class="c-white fz-1p5 ml@lrg" href="assets/pdf/resume_Aidan_Chamberlain_Dec2021.pdf"
+                    target="_blank">My Resume</a></li>
+            <!-- link to my personal github -->
             <li><a class="c-white fz-1p5 ml@lrg" href="https://github.com/RedComet6" target="_blank">My GitHub</a></li>
+            <!-- link to my personal LinkedIn -->
             <li><a class="c-white fz-1p5 ml@lrg" href="https://www.linkedin.com/in/aidan-chamberlain-776b8b90"
                     target="_blank">My LinkedIn</a></li>
         </ul>
