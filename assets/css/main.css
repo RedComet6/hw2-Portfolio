@@ -19,7 +19,14 @@ a {
   text-decoration: none;
 }
 
-/* selectors */
+a img:hover {
+  border: 0.125rem solid black;
+}
+
+li a:hover {
+  color: orange;
+}
+
 :target {
   display: block;
   position: relative;
